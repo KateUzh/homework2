@@ -7,44 +7,44 @@ public class Main {
        System.out.println(cat);
        System.out.println(paper);
 
-       dog = dog + 4;
-       cat = cat + 4;
-       paper = paper + 4;
+       dog += 4;
+       cat += 4;
+       paper += 4;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
 
-        dog = dog - 3.5;
-        cat = cat - 1.6;
-        paper = paper - 7639;
+        dog -= 3.5;
+        cat -= 1.6;
+        paper -= 7639;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
 
         var friend = 19;
         System.out.println(friend);
-        friend = friend + 2;
+        friend += 2;
         System.out.println(friend);
-        friend = friend / 7;
+        friend /= 7;
         System.out.println(friend);
 
         var frog = 3.5;
         System.out.println(frog);
-        frog = frog * 10;
+        frog *= 10;
         System.out.println(frog);
-        frog = frog / 3.5;
+        frog /= 3.5;
         System.out.println(frog);
-        frog = frog + 4;
+        frog += 4;
         System.out.println(frog);
 
-        var boxer1Weight = 78.2;
-        var boxer2Weight = 82.7;
-        var totalWeight = boxer1Weight + boxer2Weight;
+        var boxerFirstWeight = 78.2;
+        var boxerSecondWeight = 82.7;
+        var totalWeight = boxerFirstWeight + boxerSecondWeight;
         System.out.println(totalWeight);
-        var diffWeight = boxer1Weight - boxer2Weight;
+        var diffWeight = boxerFirstWeight - boxerSecondWeight;
         System.out.println(diffWeight);
 
-        var overWeight = boxer2Weight % boxer1Weight;
+        var overWeight = boxerSecondWeight % boxerFirstWeight;
         System.out.println(overWeight);
 
         var totalHours = 640;
