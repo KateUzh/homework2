@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
         var dog = 8.0;
-       var cat = 3.6;
-       var paper = 763789;
-       System.out.println(dog);
-       System.out.println(cat);
-       System.out.println(paper);
+        var cat = 3.6;
+        var paper = 763789;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
 
-       dog += 4;
-       cat += 4;
-       paper += 4;
+        dog += 4;
+        cat += 4;
+        paper += 4;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
@@ -53,9 +53,8 @@ public class Main {
         System.out.println("Всего работников в компании - " + totalEmployees + " человек");
         totalEmployees = totalEmployees + 94;
         totalHours = totalEmployees * employeeHours;
-        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + totalHours + " часов работы может быть поделено между сотрудниками");
-
-
+        System.out.println("Если в компании работает " + totalEmployees + " человек, то всего " + totalHours +
+                " часов работы может быть поделено между сотрудниками");
 
 
     }
